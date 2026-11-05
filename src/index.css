@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FBF6F1;
+  --color-blush: #F3E3E0;
+  --color-ink: #2B1B24;
+  --color-rose: #A8556A;
+
+  --font-heading: Georgia, serif;
+  --font-body: system-ui, sans-serif;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+  }
+}
